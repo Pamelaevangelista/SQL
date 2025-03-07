@@ -14,3 +14,8 @@ DELETE FROM nome_tabela
 WHERE email = 'anamariabraga@hotmail.com';
 
 SELECT * FROM nome_tabela;
+
+INSERT INTO nome_do_banco.nome_tabela(nome, email, telefone, data_nascimento, endereco)
+VALUES ('Sílvio Santos' , 'silvio@gmail.com' , '01140028922' , '1930-12-12' , 'Osasco, São Paulo' );
+INSERT INTO nome_do_banco.nome_tabela(nome, email, telefone, data_nascimento, endereco)
+VALUES ('Alcione' , 'alcione@gmail.com' , '01140028922' , '1949-04-01' , 'Recreio, Zona Oeste do Rio' );
